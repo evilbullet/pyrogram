@@ -29,7 +29,7 @@ Features
 -   **Fast**: Crypto parts are boosted up by TgCrypto_, a high-performance library written in pure C.
 -   **Documented**: Pyrogram API methods, types and public interfaces are well documented.
 -   **Type-hinted**: Exposed Pyrogram types and method parameters are all type-hinted.
--   **Updated**, to the latest Telegram API version, currently Layer 91 on top of MTProto 2.0.
+-   **Updated**, to the latest Telegram API version, currently Layer 91 on top of `MTProto 2.0`_.
 -   **Pluggable**: The Smart Plugin system allows to write components with minimal boilerplate code.
 -   **Comprehensive**: Execute any advanced action an official client is able to do, and even more.
 
@@ -46,8 +46,8 @@ Installing
 
     pip3 install pyrogram
 
-Getting Started
----------------
+Resources
+---------
 
 -   The Docs contain lots of resources to help you getting started with Pyrogram: https://docs.pyrogram.ml.
 -   Reading `Examples in this repository`_ is also a good way for learning how Pyrogram works.
@@ -76,6 +76,7 @@ Copyright & License
 .. _`Email`: admin@pyrogram.ml
 .. _`Message`: https://t.me/haskell
 .. _TgCrypto: https://github.com/pyrogram/tgcrypto
+.. _`MTProto 2.0`: https://core.telegram.org/mtproto
 .. _`GNU Lesser General Public License v3 or later (LGPLv3+)`: COPYING.lesser
 
 .. |header| raw:: html
