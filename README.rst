@@ -1,6 +1,14 @@
 Pyrogram
 ========
 
+.. image:: https://svgshare.com/i/AyT.svg
+   :width: 166px
+   :align: right
+
+**Pyrogram** is an elegant, easy-to-use Telegram_ client library and framework written from the ground up in Python and C. Built on top of the `MTProto API`_, Pyrogram enables you to easily create custom apps using both User (client app alternative) and Bot (bot API alternative) identities and let them interact with the Telegram Database.
+
+    `A fully-asynchronous variant is also available » <https://github.com/pyrogram/pyrogram/issues/181>`_
+
 .. code-block:: python
 
     from pyrogram import Client, Filters
@@ -14,16 +22,6 @@ Pyrogram
 
 
     app.run()
-
-.. image:: https://svgshare.com/i/AyT.svg
-   :width: 166px
-   :align: right
-
-**Pyrogram** is an elegant, easy-to-use Telegram_ client library and framework written from the ground up in Python and C. Built on top of the `MTProto API`_, Pyrogram enables you to easily create custom apps using both User (client app alternative) and Bot (bot API alternative) identities and let them interact with the Telegram Database.
-
-    `A fully-asynchronous variant is also available » <https://github.com/pyrogram/pyrogram/issues/181>`_
-
-
 
 Features
 --------
