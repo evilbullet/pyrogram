@@ -3,7 +3,7 @@
 Pyrogram
 ========
 
-    `A fully asynchronous variant is also available! <https://github.com/pyrogram/pyrogram/issues/181>`_
+    `A **fully asynchronous** variant is also available! <https://github.com/pyrogram/pyrogram/issues/181>`_
 
 .. code-block:: python
 
