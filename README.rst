@@ -3,7 +3,7 @@
 Pyrogram
 ========
 
-    `A **fully asynchronous** variant is also available! <https://github.com/pyrogram/pyrogram/issues/181>`_
+    `A fully asynchronous variant is also available! <https://github.com/pyrogram/pyrogram/issues/181>`_
 
 .. code-block:: python
 
@@ -19,8 +19,7 @@ Pyrogram
 
     app.run()
 
-**Pyrogram** is an elegant, easy-to-use Telegram_ client library and framework written from the ground up in Python and C.
-It enables you to easily build custom Telegram applications that interact with the MTProto API as both user and bot.
+**Pyrogram** is an elegant, easy-to-use Telegram_ client library and framework written from the ground up in Python and C. Built on top of the `MTProto API`_, Pyrogram enables you to easily create custom apps using both User (client app alternative) and Bot (bot API alternative) identities and let them interact with the Telegram Database.
 
 Features
 --------
@@ -69,6 +68,7 @@ Copyright & License
 -   Licensed under the terms of the `GNU Lesser General Public License v3 or later (LGPLv3+)`_
 
 .. _`Telegram`: https://telegram.org/
+.. _`MTProto API`: https://core.telegram.org/api#telegram-api
 .. _`Telegram API key`: https://docs.pyrogram.ml/start/ProjectSetup#api-keys
 .. _`Community`: https://t.me/PyrogramChat
 .. _`Examples in this repository`: https://github.com/pyrogram/pyrogram/tree/master/examples
