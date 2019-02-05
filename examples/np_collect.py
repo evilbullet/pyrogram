@@ -23,4 +23,5 @@ n1 = f.get(channel_name)
 n1 = np.array(n1)
 for x in n1:#['history']:
     print(n1)
+
 # H = [x for x in f]
