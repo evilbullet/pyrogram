@@ -7,7 +7,9 @@ import time
 from pyrogram import Client
 from pyrogram.api.errors import FloodWait
 
-app = Client("my_account")
+app = Client(
+             "my_account", api_id=668604, api_hash="691dfb6e3825de315413c995ee3dd558"
+             )
 
 target = "pyrogramchat"  # Target channel/supergroup
 members = []  # List that will contain all the members of the target chat
@@ -28,4 +30,8 @@ with app:
         members.extend(chunk.chat_members)
         offset += len(chunk.chat_members)
 
-# Now the "members" list contains all the members of the target chat
+        # Now the "members" list contains all the members of the target chat
+
+
+        # Send a message to yourself, Markdown is enabled by default
+        app.send_message("grin4k", "{}".format(len(members)))

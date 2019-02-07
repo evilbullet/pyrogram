@@ -1,4 +1,3 @@
-"""This example shows how to retrieve the full message history of a chat"""
 
 import time
 from pyrogram import Client
@@ -83,43 +82,6 @@ def top_3posts():
                 continue
             if not m.messages:
                 break
-
-    print(len(messages))
-    for i in range(len(messages)):
-        try:
-            if messages[i].photo.sizes[0]['file_id']:
-                image_ids.append(messages[i].photo.sizes[0]['file_id'])
-        except:
-            no_view += 1
-        i += 1
-    print(no_view, image_ids)
-
-if __name__ == '__main__':
-    # fi = 'AgADAgADqacxGyR1jR5tpxkPXAABRsAoZasOAAR9SuecUa4psbs1AAIC'
-    # app = Client("me", api_id=668604, api_hash="691dfb6e3825de315413c995ee3dd558")
-    # app.send_photo('me', fi)
-
-    channels = ['memes', 'laughingC']
-    app = Client("me", api_id=668604, api_hash="691dfb6e3825de315413c995ee3dd558")
-    target = 'pyrogramchat'  # "me" refers to your own chat (Saved Messages)
-    messages = []  # List that will contain all the messages of the target chat
-    offset_id = 10 # ID of the last message of the chunk
-    limit = 10
-
-    no_photo, no_view = 0, 0
-    image_ids = []
-    with app:
-        while True:
-            try:
-                m = app.get_history(target, offset_id=offset_id)
-            except FloodWait as e:  # For very large chats the method call can raise a FloodWait
-                print("waiting {}".format(e.x))
-                time.sleep(e.x)  # Sleep X seconds before continuing
-                continue
-            if not m.messages:
-                break
-            messages += m.messages
-            print(len(messages))  # offset_id = m.messages[-1].message_id
 
     print(len(messages))
     for i in range(len(messages)):

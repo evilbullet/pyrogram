@@ -15,7 +15,7 @@ from pyrogram.api.errors import FloodWait
 
 app = Client("my_account")
 
-target = "pyrogramchat"  # Target channel/supergroup
+target = "memlrd"  # Target channel/supergroup
 members = {}  # List that will contain all the members of the target chat
 limit = 200  # Amount of users to retrieve for each API call (max 200)
 
