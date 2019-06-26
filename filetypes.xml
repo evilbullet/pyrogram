@@ -8,6 +8,7 @@
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping pattern="d_test" type="Python" />
       <mapping pattern="todo_mvc_test" type="Python" />
+      <mapping ext="sqlite" type="SQL" />
     </extensionMap>
   </component>
 </application>
